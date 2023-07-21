@@ -17,11 +17,14 @@ right_paddle = Paddle((380, 0))
 # Creating an intance of the ball class
 ball = Ball()
 
-# Listening to the key strokes
+# Activating the screen listen() function.
 my_screen.listen()
+
+# Listening for the right paddle key strokes
 my_screen.onkey(right_paddle.go_up, 'Up')
 my_screen.onkey(right_paddle.go_down, 'Down')
 
+# Listening for the left paddle key strokes
 my_screen.onkey(left_paddle.goUp, 'w')
 my_screen.onkey(left_paddle.goDown, 's')
 
