@@ -18,7 +18,7 @@ class Ball(Turtle):
 
     def wall_bounce(self):
         self.y_move *= -1
-        self.ball_speed *= 0.9
+        #self.ball_speed *= 0.9 
 
     def paddle_bounce(self):
         self.ball_speed *= 0.9
